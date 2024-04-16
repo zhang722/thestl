@@ -159,7 +159,7 @@ typename vector<T>::iterator vector<T>::begin() {
 
 template <typename T>
 typename vector<T>::iterator vector<T>::end() {
-  return finish - 1;
+  return finish;
 }
 
 template <typename T>

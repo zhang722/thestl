@@ -29,7 +29,7 @@ void vector_test() {
     assert(a.front() == 1);
     assert(a.back() == 2);
     assert(*a.begin() == 1);
-    assert(*a.end() == 2);
+    assert((*(a.end()-1)) == 2);
     a.pop_back();
     assert(a.size() == 8);
 
