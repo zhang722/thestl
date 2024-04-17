@@ -1,3 +1,6 @@
+#ifndef STRING_HPP_
+#define STRING_HPP_
+
 #include <cstddef>
 #include <algorithm>
 #include <cstring>
@@ -60,3 +63,5 @@ bool operator==(const string& lhs, const string::element_type* rhs);
 
 
 } // thestl
+
+#endif
