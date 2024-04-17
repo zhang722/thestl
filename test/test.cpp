@@ -3,6 +3,7 @@
 #include "vector_test.h"
 #include "shared_ptr_test.h"
 #include "string_test.h"
+#include "bitset_test.h"
 
 int main() {
     using namespace test;
@@ -11,4 +12,5 @@ int main() {
     vector_test();
     shared_ptr_test();
     string_test(); 
+    bitset_test();
 }
