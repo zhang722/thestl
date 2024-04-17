@@ -17,7 +17,6 @@ template <size_t N>
 class bitset {
     typedef unsigned long long data_type;
 
-public:
     static constexpr size_t W = sizeof(data_type) * 8;
     static constexpr size_t L = (N + W - 1) / W;
     data_type data_[L];
